@@ -8,7 +8,7 @@ public class chase : MonoBehaviour {
 	static Animator anim;
 
 	public Slider healthbar;
-
+	public float distans;
 	public GameObject[] wayPoints;
 	public Transform head;
 	int currentWP = 0;
@@ -16,17 +16,23 @@ public class chase : MonoBehaviour {
 	public float speed = 1.5f;
 	float accuracyWP = 1.0f;
 
+	public bool attacking;
+	public float timeAnimAttack = 2.1f;
+	public float timeAttack;
+
 	public string state = "patrol";
+	public bool meleeHit = false;
 
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator>();
+		timeAttack = timeAnimAttack;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		if (healthbar.value <= 0) return;
+		if (GetComponent<detectHit>().health <= 0) return;
 
 		Vector3 direction = player.position - this.transform.position;
 		direction.y = 0;
@@ -58,16 +64,33 @@ public class chase : MonoBehaviour {
 
 			//anim.SetBool("isIdle", false);
 
-			if (direction.magnitude > 2) {
+			if (direction.magnitude > distans) {
 				this.transform.Translate(0, 0, speed * Time.deltaTime);
 				anim.SetBool("isWalking", true);
 				anim.SetBool("isAttacking", false);
+
+				timeAttack = timeAnimAttack;
+				attacking = false;
+
 				//anim.SetBool("isIdle", false);
 			} else {
-				anim.SetBool("isWalking", false);
-				anim.SetBool("isAttacking", true);
-				//anim.SetBool("isIdle", false);
+
+				if (meleeHit) {
+					anim.SetBool("isWalking", false);
+					anim.SetBool("isAttacking", true);
+
+					timeAttack -= Time.deltaTime;
+
+					if (timeAttack <= 0) {
+						meleeHit = false;
+						attacking = true;
+						timeAttack = timeAnimAttack;
+					}
+
+				} else 
+					meleeHit = true;
 			}
+
 		} else {
 				anim.SetBool("isWalking", true);
 				anim.SetBool("isAttacking", false);

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class character_controller : MonoBehaviour {
 
@@ -9,12 +10,19 @@ public class character_controller : MonoBehaviour {
 	public float speedWalk;
 	public float speedRun;
 	bool dHit;
+	public Slider slider;
+
+	float timeAnimAttack = 2.5f;
+	float timeAttack;
+	public bool eventAttack = false;
+	public bool meleeFirstHit = false;
 	
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator>();
 		Cursor.lockState = CursorLockMode.Locked;
 		speed = speedWalk;
+		timeAttack = timeAnimAttack;
 	}
 	
 	// Update is called once per frame
@@ -24,6 +32,8 @@ public class character_controller : MonoBehaviour {
 		if (dHit) {
 			return;
 		};
+
+		slider.value = GetComponent<detectHit>().health;
 		
 		float translation = Input.GetAxis("Vertical") * speed;
 		float straffe = Input.GetAxis("Horizontal") * speed;
@@ -31,11 +41,20 @@ public class character_controller : MonoBehaviour {
 		translation *= Time.deltaTime;
 		straffe *= Time.deltaTime;
 
-		transform.Translate(0, 0, translation);
+		if (!eventAttack) {
+			transform.Translate(0, 0, translation);
+		}
 
-		if (Input.GetKeyDown(KeyCode.LeftShift)){
-			anim.SetBool("isRun", true);
-			this.GetComponent<character_controller>().speed = speedRun;
+		if (Input.GetKey(KeyCode.LeftShift)){
+			
+			if (translation > 0) {
+				anim.SetBool("isRun", true);
+				this.GetComponent<character_controller>().speed = speedRun;
+			} 
+			else {
+				anim.SetBool("isRun", false);
+				this.GetComponent<character_controller>().speed = speedWalk;
+			}
 		}
 
 		if (Input.GetKeyUp(KeyCode.LeftShift)){
@@ -43,10 +62,27 @@ public class character_controller : MonoBehaviour {
 			this.GetComponent<character_controller>().speed = speedWalk;
 		}
 
-		if (Input.GetButton("Fire1")) {
+		if (Input.GetButton("Fire1") && !eventAttack) {
 			anim.SetBool("isAttacking", true);
-		} else 
-			anim.SetBool("isAttacking", false);
+			translation = 0;
+
+			eventAttack = true;
+		} 
+		else {
+			if (eventAttack) {
+				timeAttack -= Time.deltaTime;
+
+				if (timeAttack < 0) {
+					meleeFirstHit = false;
+					eventAttack = false;
+				}
+			} 
+			else {
+				timeAttack = timeAnimAttack;
+				anim.SetBool("isAttacking", false);
+				eventAttack = false;
+			}
+		}
 
 		if (translation != 0) {
 			anim.SetBool("isWalking", true);
@@ -56,8 +92,10 @@ public class character_controller : MonoBehaviour {
 			anim.SetBool("isIdle", true);
 		}
 
-		if (Input.GetKeyDown("escape")) 
+		if (Input.GetKeyDown("escape")) {
 			Cursor.lockState = CursorLockMode.None;
+			Application.Quit();
+		}
 
 	}
 }
