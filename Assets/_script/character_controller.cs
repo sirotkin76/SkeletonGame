@@ -94,8 +94,10 @@ public class character_controller : MonoBehaviour {
 
 		if (Input.GetKeyDown("escape")) {
 			Cursor.lockState = CursorLockMode.None;
-			Application.Quit();
 		}
+
+		if (Input.GetKeyDown(KeyCode.F1)) Application.LoadLevel("menu");
+		if (Input.GetKeyDown(KeyCode.F2)) Application.LoadLevel("main");
 
 	}
 }

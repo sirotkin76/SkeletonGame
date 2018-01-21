@@ -50,8 +50,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\Editor\VSCode.cs" />
-     <None Include="Assets\Standard Assets\water well\readme.txt" />
-     <None Include="Assets\3DForge\Fantasy_Interiors\Villages_&amp;_Towns\Documents\Village Interiors User Guid v1.3.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>D:/Programm/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

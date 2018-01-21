@@ -13,12 +13,12 @@ public class detectHit : MonoBehaviour {
 	public bool firstHit = false;
 	public float hp;
 
+	public GameObject VisualHP;
+
 	void OnTriggerStay (Collider other) {
 		if (other.gameObject.tag == "Well") {
-			if (this.gameObject.tag == "Player"){
+			if (this.gameObject.tag == "Player") {
 				if(health < 100) {
-					Debug.Log("1");
-
 					hp += Time.deltaTime;
 
 					if (hp > 1) {
@@ -26,10 +26,20 @@ public class detectHit : MonoBehaviour {
 						health += 1;
 					}
 				}
+
+				VisualHP.SetActive(true);
 			}
 			
 			return;
 		} 
+	}
+
+	void OnTriggerExit(Collider other) {
+		if (other.gameObject.tag == "Well") {
+			if (this.gameObject.tag == "Player") {
+				VisualHP.SetActive(false);
+			}
+		}
 	}
 
 	void OnTriggerEnter(Collider other) {

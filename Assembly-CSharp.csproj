@@ -54,8 +54,8 @@
      <Compile Include="Assets\_script\character_controller.cs" />
      <Compile Include="Assets\_script\chase.cs" />
      <Compile Include="Assets\_script\detectHit.cs" />
-     <None Include="Assets\Standard Assets\water well\readme.txt" />
-     <None Include="Assets\3DForge\Fantasy_Interiors\Villages_&amp;_Towns\Documents\Village Interiors User Guid v1.3.txt" />
+     <Compile Include="Assets\_script\menu\Skeleton.cs" />
+     <Compile Include="Assets\_script\menu\menu.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Programm/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
