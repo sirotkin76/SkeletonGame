@@ -7,7 +7,7 @@ public class detectHit : MonoBehaviour {
 
 	public Slider healthbar;
 	public float health;
-	Animator anim;
+	public Animator anim;
 	public bool death;
 	public bool attack = false;
 	public bool firstHit = false;
@@ -79,10 +79,11 @@ public class detectHit : MonoBehaviour {
 		
 		if (!eDeath && attack && !firstHit ) {
 			firstHit = true;
-			health -= 5;
+			health -= 105;
 
-			if (health < 0)  
+			if (health < 0) {
 				health = 0 ;
+			} 
 
 			anim.SetTrigger("isDamage");
 
@@ -93,6 +94,9 @@ public class detectHit : MonoBehaviour {
 
 		if (health <= 0) {
 			death = true;
+			anim.SetBool("isDeath", death);
+		} else {
+			death = false;
 			anim.SetBool("isDeath", death);
 		}
 	}

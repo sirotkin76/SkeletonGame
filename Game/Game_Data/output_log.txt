@@ -17,21 +17,21 @@ Platform assembly: F:\Unity\SkeletonGame\Game\Game_Data\Managed\UnityEngine.Netw
 Loading F:\Unity\SkeletonGame\Game\Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: F:\Unity\SkeletonGame\Game\Game_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading F:\Unity\SkeletonGame\Game\Game_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.049 seconds
+- Completed reload, in  0.060 seconds
 Platform assembly: F:\Unity\SkeletonGame\Game\Game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: F:\Unity\SkeletonGame\Game\Game_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.620022 ms
+UnloadTime: 3.708680 ms
 1 sk - Skeleton@Skin --- 19.98
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 13a4 -> priority: 1 
-  Thread -> id: 6ac -> priority: 1 
+  Thread -> id: 1fec -> priority: 1 
+  Thread -> id: 10f8 -> priority: 1 
 1 sk - Skeleton@Skin --- 19.96
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -2708,17 +2708,475 @@ Setting up 2 worker threads for Enlighten.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+1 sk - Skeleton@Skin --- 6.579727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.559727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.539727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.519727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.499727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.479727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.459727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.439727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.419727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.399727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.379727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.359727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.339727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.319727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.299727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.279727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.259727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.239727
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.219728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.199728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.179728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.159728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.139728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.119728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.099728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.079728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.059728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.039728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 6.019728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.999728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.979728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.959728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.939728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.919728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.899728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.879728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.859728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.839728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.819728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.799728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.779728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.759728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.739728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.719728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.699728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.679728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.659728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.639728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.619728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.599728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.579728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.559728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.539728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.519728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.499728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.479728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.459728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.439728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.419728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.399728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.379728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.359728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.339728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.319728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.299728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.279728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.259728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.239728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.219728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.199728
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.179729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.159729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.139729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.119729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.099729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.079729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.059729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.039729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 5.019729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.999729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.979729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.959729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.939729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.919729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.899729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.879729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.859729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.839729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.819729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.799729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.779729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.759729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.739729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.719729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.699729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.679729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.659729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.639729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.619729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.599729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.579729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.559729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.539729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.519729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.499729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.479729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.459729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.439729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.419729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.399729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.379729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.359729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 sk - Skeleton@Skin --- 4.339729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.477133 ms
+UnloadTime: 4.209044 ms
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 775.
-Total: 1.303828 ms (FindLiveObjects: 0.087826 ms CreateObjectMapping: 0.079792 ms MarkObjects: 0.485126 ms  DeleteObjects: 0.649697 ms)
+Total: 0.554944 ms (FindLiveObjects: 0.035186 ms CreateObjectMapping: 0.019671 ms MarkObjects: 0.215550 ms  DeleteObjects: 0.284260 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.651986 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 776.
+Total: 0.977732 ms (FindLiveObjects: 0.059844 ms CreateObjectMapping: 0.051809 ms MarkObjects: 0.435810 ms  DeleteObjects: 0.429437 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.085929 ms
+UnloadTime: 3.882117 ms
 
 Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 1165.
-Total: 5.264907 ms (FindLiveObjects: 0.205298 ms CreateObjectMapping: 0.114147 ms MarkObjects: 0.580987 ms  DeleteObjects: 4.363088 ms)
+Total: 4.837132 ms (FindLiveObjects: 0.129662 ms CreateObjectMapping: 0.070095 ms MarkObjects: 0.470442 ms  DeleteObjects: 4.165546 ms)
 
 1 sk - Skeleton@Skin --- 19.98
  
@@ -2925,82 +3383,6 @@ Total: 5.264907 ms (FindLiveObjects: 0.205298 ms CreateObjectMapping: 0.114147 m
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 1 sk - Skeleton@Skin --- 18.95998
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.93998
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.91998
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.89997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.87997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.85997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.83997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.81997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.79997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.77997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.75997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.73997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.71997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.69997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.67997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.65997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.63997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.61997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.59997
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-1 sk - Skeleton@Skin --- 18.57997
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

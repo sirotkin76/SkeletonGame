@@ -16,6 +16,9 @@ public class character_controller : MonoBehaviour {
 	float timeAttack;
 	public bool eventAttack = false;
 	public bool meleeFirstHit = false;
+
+	public int gold;
+	public Text goldText;
 	
 	// Use this for initialization
 	void Start () {
@@ -30,8 +33,15 @@ public class character_controller : MonoBehaviour {
 
 		dHit = GetComponent<detectHit>().death;
 		if (dHit) {
+
+			anim.SetBool("isIdle", false);
+			anim.SetBool("isRun", false);
+			anim.SetBool("isAttacking", false);
+			anim.SetBool("isWalking", false);
 			return;
 		};
+
+		goldText.text = "Gold: " +  gold.ToString();
 
 		slider.value = GetComponent<detectHit>().health;
 		
@@ -92,12 +102,12 @@ public class character_controller : MonoBehaviour {
 			anim.SetBool("isIdle", true);
 		}
 
-		if (Input.GetKeyDown("escape")) {
+		if (Input.GetKeyDown("escape"))
 			Cursor.lockState = CursorLockMode.None;
-		}
-
-		if (Input.GetKeyDown(KeyCode.F1)) Application.LoadLevel("menu");
-		if (Input.GetKeyDown(KeyCode.F2)) Application.LoadLevel("main");
+		if (Input.GetKeyDown(KeyCode.F1)) 
+			Application.LoadLevel("menu");
+		if (Input.GetKeyDown(KeyCode.F2)) 
+			Application.LoadLevel("main");
 
 	}
 }

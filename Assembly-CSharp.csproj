@@ -51,11 +51,13 @@
   <ItemGroup>
      <Compile Include="Assets\_script\CameMouseLook.cs" />
      <Compile Include="Assets\_script\FindEnemy.cs" />
+     <Compile Include="Assets\_script\Gold.cs" />
      <Compile Include="Assets\_script\character_controller.cs" />
      <Compile Include="Assets\_script\chase.cs" />
      <Compile Include="Assets\_script\detectHit.cs" />
      <Compile Include="Assets\_script\menu\Skeleton.cs" />
      <Compile Include="Assets\_script\menu\menu.cs" />
+     <Compile Include="Assets\_script\tombstoneCross.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Programm/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

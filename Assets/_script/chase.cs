@@ -23,6 +23,9 @@ public class chase : MonoBehaviour {
 	public string state = "patrol";
 	public bool meleeHit = false;
 
+	public bool deathMoney = false;
+	public GameObject prefab;
+
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator>();
@@ -32,7 +35,20 @@ public class chase : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (GetComponent<detectHit>().health <= 0) return;
+		if (GetComponent<detectHit>().health <= 0) {
+			if (!deathMoney) {
+				Instantiate(prefab, this.transform.position + Vector3.up, this.transform.rotation);
+				deathMoney = true;
+			}
+
+			anim.SetBool("isDeath", true);
+			anim.SetBool("isAttacking", false);
+			anim.SetBool("isIdle", false);
+			anim.SetBool("isRun", false);
+			anim.SetBool("isWalking", false);
+			
+			return;
+		}
 
 		Vector3 direction = player.position - this.transform.position;
 		direction.y = 0;
